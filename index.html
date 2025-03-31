@@ -31,23 +31,26 @@
     </div>
     <br>
     <p>Select Genre Tags</p>
-    <input type="checkbox" id="comedy" name="comedy" value="comedy">
+    <input type="checkbox" id="comedy" class="genre" value="comedy">
     <label for="comedy">Comedy</label><br>
-    <input type="checkbox" id="romantic" name="romantic" value="romantic">
+    <input type="checkbox" id="romantic" class="genre" value="romantic">
     <label for="romantic">Romantic</label><br>
-    <input type="checkbox" id="horror" name="horror" value="horror">
+    <input type="checkbox" id="horror" class="genre" value="horror">
     <label for="horror">horror</label><br><br>
 
-    <label for="genre">Choose a platform:</label>
-    <select name="genre" id="genre">
-    <option value="comedy">Netflix</option>
-    <option value="horror">Amazon Prime</option>
-    <option value="thriller">Jio Hotstar</option>
-    <option value="romantic">Sony Liv</option>
+    <label for="platform">Choose a platform:</label>
+    <select name="platform" id="platform">
+    <option value="Netflix">Netflix</option>
+    <option value="Amazon Prime">Amazon Prime</option>
+    <option value="Jio Hotstar">Jio Hotstar</option>
+    <option value="Sony Liv">Sony Liv</option>
     </select>
     <br><br>
     <input type="submit" value="Submit">
   </form> 
+  <p>List:</p>
+  <div id="list_container">
+  </div>
 </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
