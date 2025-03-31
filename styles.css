@@ -1,0 +1,11 @@
+
+#sub_title {color: beige;}
+.title{color: bisque;}
+
+
+/* Ordering 
+1. Browser default styles
+2. External styles (<link> file)
+3. Internal styles (<style> in <head>)
+4. Inline styles (style="" inside an element)
+5. !important styles */
